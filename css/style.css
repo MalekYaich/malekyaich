@@ -240,7 +240,12 @@
 }
 
 #skill .tab-content hr {
-    width: 30px;
+    width: 0px;
+}
+
+.row .col li {
+    padding: 0; /* Remove default padding */
+    font-size: 13px; /* Adjust the font size as needed */
 }
 
 
@@ -428,3 +433,35 @@
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
 }
+
+
+
+
+
+
+.experience-nav-dots {
+    text-align: center;
+}
+
+.experience {
+    display: none;
+}
+
+#experience1 {
+    display: block;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+    .dot.active {
+        background-color: #717171;
+    }
+
