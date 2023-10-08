@@ -455,6 +455,7 @@
     height: 10px;
     width: 10px;
     margin: 0 5px;
+    margin-bottom: 15px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -464,4 +465,47 @@
     .dot.active {
         background-color: #717171;
     }
+/* Styles pour les points de navigation */
 
+.experience-nav-dots {
+    margin-bottom: 15px; /* Espacement vers le bas */
+    text-align: center; /* Pour centrer les dots et les chiffres */
+}
+.experience-nav-dots .dot {
+    height: 15px;
+    width: 15px;
+    margin-right: 12px; /* Espacement entre les dots et les chiffres */
+    margin-bottom: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer; /* Ajout du curseur pointer pour indiquer que c'est cliquable */
+}
+
+    .experience-nav-dots .dot.active {
+        background-color: #333;
+    }
+
+    .experience-nav-dots .dot span {
+        display: block;
+        text-align: center;
+        margin-top: -7px; /* Ajustement pour centrer le chiffre */
+        color: white;
+    }
+
+/* Styles pour la boîte de défilement horizontale */
+.experience-scroll-box {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Pour activer le défilement tactile */
+    max-width: 100%; /* Pour s'assurer que le contenu ne dépasse pas l'écran */
+}
+
+
+.experience {
+    width: 100%; /* Ajuste la largeur de chaque expérience */
+    flex: 0 0 auto; /* Permet le défilement horizontal */
+    padding: 20px; /* Ajoute de l'espace entre les expériences */
+    box-sizing: border-box;
+}
