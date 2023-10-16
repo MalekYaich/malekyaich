@@ -181,34 +181,19 @@
     }
 }
 
-.modal-video .modal-dialog {
-    position: relative;
-    max-width: 800px;
-    margin: 60px auto 0 auto;
+.x {
+    padding: 14px 22px;
+    font-size: 16px;
+    border: 2px solid #6244c5; /* Couleur de la bordure */
+    border-radius: 8px; /* Arrondir les coins */
+    margin: 0px 4px 0px 0px; /* Marge entre les boutons */
 }
-
-.modal-video .modal-body {
-    position: relative;
-    padding: 0px;
-}
-
-.modal-video .close {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    right: 0px;
-    top: -30px;
-    z-index: 999;
-    font-size: 30px;
-    font-weight: normal;
-    color: #FFFFFF;
-    background: #000000;
-    opacity: 1;
-}
-
-
+    .x:hover {
+        background-color: #6244c5; /* Couleur au survol */
+        color: white; /* Couleur du texte au survol */
+    }
 /*** About ***/
-#about .years .display-1 {
+    #about .years .display-1 {
     font-size: 10rem;
     line-height: 9rem;
 }
