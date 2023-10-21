@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #6244C5;
+    --primary: #26316B;
     --secondary: #FFC448;
     --light: #FAFAFB;
     --dark: #12141D;
@@ -104,9 +104,11 @@
 
 
 /*** Header ***/
+#home.container-fluid {
+    background: url(../img/back.gif) left top no-repeat;
+}
 #home {
     margin-bottom: 5rem;
-    /*background: url(../img/bg-header.png) left top no-repeat;*/
 }
 
 .typed-cursor {
